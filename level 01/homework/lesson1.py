@@ -12,3 +12,7 @@ print(name+" "+surname)
 print(name+" "+str(age))
 
 print("my name is"+" "+name+" "+surname+" "+ "i am"+" "+str(age)+" "+str(height)+" "+str(True))
+
+song="yesterday"
+song="let it be"
+print(song)
