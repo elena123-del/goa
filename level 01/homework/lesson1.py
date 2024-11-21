@@ -5,7 +5,7 @@ height=1.40 #ცვლადი float
 
 age=10 #ცვლადი int (intenger)
 
-i_love_playing_sports=True # bool (boolean)
+i_love_playing_sports=True # bool (boolean) ბულიენი არის true და false
 
 print(name+" "+surname)
 

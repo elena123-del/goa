@@ -1,3 +1,3 @@
 name1 = "razmadze ani"
 name2 = "nika keshelava"
-name3 = ""
+name3 = "tato afanasieva"
