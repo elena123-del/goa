@@ -12,9 +12,9 @@
 # ეკრანზე გამოიტანეთ თითოეული ცვლადი და კომენტარებით მიუწერეთ რას გამოიტანს და რატომ, შემდეგ მათი კომბინაციები დაბეჭდეთ (მაგალითად a and b ან c or i და ასე შემდეგ) მატაც მიუწერეთ რას გამოიტანს და რატომ 
 
 a = 5 == 5 #true
-b = 10 != 20 #?
+b = 10 != 20 #true
 c = 4 > 3 and 2 < 5  #true
-d = 10 > 20 or 5 < 8 #false
+d = 10 > 20 or 5 < 8 #true
 e = not (7 > 3)  #false
 f = "hello" == "world" #false
 g = 15 >= 10 #true
@@ -22,4 +22,14 @@ h = 8 <= 8 #true
 i = 3 > 1 and 2 == 2 and 4 != 5  #true
 j = not (10 < 5 or 2 == 2) #false
 
+print(a)
+print(b)
+print(c)
+print(d)
+print(e)
+print(f)
+print(g)
+print(h)
+print(i)
+print(j)
 
