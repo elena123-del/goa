@@ -1,2 +1,1 @@
-name="elena"
-mother="xatia"
+#no classwork
