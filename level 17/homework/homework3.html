@@ -1,1 +1,31 @@
-<!--2)შექმენით სარეგისტრაციო ფორმა, სადაც მომხმარებელს შემოატანინებთ მის ქვეყანას (drop down menu), შემოტანინებთ მის სახელს და შემოატანინებთ მის გვარს, შექმენით დადასტურების ღილაკი და სწორედ დაახარისხეთ ეს მონაცემები name ატრიბუტის მეშვებოით (ყველაფერი ახსენით კომენტარების სახით)
+<!--2)შექმენით სარეგისტრაციო ფორმა, სადაც მომხმარებელს შემოატანინებთ მის ქვეყანას (drop down menu), შემოტანინებთ მის სახელს და შემოატანინებთ მის გვარს, შექმენით დადასტურების ღილაკი და სწორედ დაახარისხეთ ეს მონაცემები name ატრიბუტის მეშვებოით (ყველაფერი ახსენით კომენტარების სახით)-->
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Registration Form</title>
+</head>
+
+<body>
+    <h2>Registration Form</h2>
+    <form action="submit_form.php" method="post"></form>
+    <label for="firstname">First Name:</label>
+    <input type="text" id="firstname" name="firstname" required><br><br>
+
+    <label for="lastname">Last Name:</label>
+    <input type="text" id="lastname" name="lastname" required><br><br>
+
+    <label for="country">Country:</label>
+    <select id="country" name="country" required>
+        <option value="Georgia">Georgia</option>
+        <option value="USA">USA</option>
+        <option value="Germany">Germany</option>
+        <option value="France">France</option>
+        <option value="Japan">Japan</option>
+    </select><br><br>
+
+    <input type="submit" value="Register">
+    </form>
+</body>
+
+</html>
