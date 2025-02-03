@@ -3,5 +3,5 @@ for i in range(50):
     print(i)
 
 # 2)დაბეჭდეთ თქვენი სახელი for ციკლის გამოყენებით 10ჯერ
-for elena in range(10):
-    print(elena)
+for i in range(10):
+    print(i)
