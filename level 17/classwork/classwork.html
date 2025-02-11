@@ -1,29 +1,45 @@
 <!--1) შექმენით საიტი სადაც იქნება სარეგისტრაციო ფორმა , უნდა იყოს 3 შესაყვანი ველი, სახელის , მაილის და პაროლის, შექმენით drop-down მენიუ სადაც იქნება თქვენთვის სასურველი ვარიანტები არ დაგავიწყდეთ name value ატრიბუტის გამოყენება```-->
 <!DOCTYPE html>
 <html>
+ 
 <head>
     <title>სარეგისტრაციო ფორმა</title>
+
+    <style>
+        body {
+            background-color: rgb(105, 28, 28);
+        }
+    </style>
+
 </head>
+
 <body>
     <h2>სარეგისტრაციო ფორმა</h2>
-    <form method="post">
-        <label for="name">სახელი:</label>
-        <input type="text" id="name" name="username" required><br><br>
-        
-        <label for="email">მაილი:</label>
-        <input type="email" id="email" name="useremail" required><br><br>
-        
-        <label for="password">პაროლი:</label>
-        <input type="password" id="password" name="userpassword" required><br><br>
-        
-        <label for="options">აირჩიეთ:</label>
-        <select id="options" name="useroption">
-            <option value="option1">ვარიანტი 1</option>
-            <option value="option2">ვარიანტი 2</option>
-            <option value="option3">ვარიანტი 3</option>
+    <form>
+        <label for="name">name</label>
+        <input type="text" name="name" id="name" placeholder="please enter ur name" required><br><br>
+
+        <label for="surname">surname</label>
+        <input type="text" name="surname" id="surname" placeholder="please enter ur surname"><br><br>
+
+        <label for="email">email</label>
+        <input type="text" name="email" id="email" placeholder="please enter ur email" required><br><br>
+
+        <label for="password">password</label>
+        <input type="password" name="password" id="password" placeholder="please enter ur password" required><br><br>
+
+        <label for="contry">contry</label>
+        <select id="contry">
+            <option value="Georgia">Georgia</option>
+            <option value="Korea">Korea</option>
+            <option value="Japan">Japan</option>
         </select><br><br>
+
+
+        <input type="submit">
+
         
-        <input type="submit" value="submit">
     </form>
 </body>
+
 </html>

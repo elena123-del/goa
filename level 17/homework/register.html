@@ -11,58 +11,35 @@
 </head>
 
 <body>
+
+    <nav>
+        <ul>
+            <li><a href="BOSS LVL.html">Home</a></li>
+            <li><a href="contact me.html">contact me</a></li>
+            <li><a href="register.html">register</a></li>
+            <li><a href="about me.html">refresh</a></li>
+        </ul>
+    </nav>
+
+    
     <h2>Register</h2>
-    <form action="/submit_registration" method="post">
-        <b><label for="first_name">name:</label></b>
-        <input type="text" id="first_name" name="first_name" placeholder="Your Name" required><br><br>
 
-        <b><label for="last_name">Surname:</label></b>
-        <input type="text" id="last_name" name="last_name" placeholder="Your Surname" required><br><br>
+    <form>
+        <label for="name" placeholder="please enter ur name"  >name</label>
+        <input type="text" name="name" id="name"  required><br><br>
 
-        <b><label for="email">email:</label></b>
-        <input type="email" id="email" name="email" placeholder="Your Email" required><br><br>
+        <label for="surname" placeholder="please enter ur surname" >surname</label>
+        <input type="text" name="surname" id="surname" required ><br><br>
 
-        <B><label for="password">password:</label></b>
-        <input type="password" id="password" name="password" placeholder="Your Password" required><br><br>
+        <label for="email" placeholder="please enter ur email">email</label>
+        <input type="text" name="email" id="email" required ><br><br>
 
-        <b><label for="age">age:</label></b>
-        <input type="number" id="age" name="age" placeholder="Your Age" required><br><br>
+        <label for="password" plaseholder="please enter ur password">password</label>
+        <input type="password" name="password" id="password" required ><br><br>
 
-        <b><label for="gender">gender:</label><br></b>
-        <input type="radio" id="male" name="gender" value="male">
-        <b><label for="male">male</label><br></b>
-        <input type="radio" id="female" name="gender" value="female">
-        <b><label for="female">female</label><br></b>
-        <input type="radio" id="other" name="gender" value="other">
-        <b><label for="other">other</label><br><br></b>
-
-        <b><label for="country">country:</label></b>
-        <select id="country" name="country">
-            <option value="georgia">Georgia</option>
-            <option value="usa">USA</option>
-            <option value="uk">UK</option>
-            <option value="spain">spain</option>
-            <option value="brazil">brazil</option>
-            <option value="austria">austria</option>
-            <option value="australia">australia</option>
-            <option value="korea">korea</option>
-            <option value="dont want to admin it">dont want to admin it</option>
-            <!-- More countries can be added here -->
-        </select><br><br>
-
-        <b><label for="favorite_color">vaf colour:</label></b>
-        <input type="color" id="favorite_color" name="favorite_color" value="#000000"><br><br>
-
-        <b><label for="phone">phone number:</label></b>
-        <input type="tel" id="phone" name="phone" placeholder="Your Phone Number" required><br><br>
-
-        <b><button type="submit">register</button></b>
+        <input type="submit" name="submit" id="submit">
     </form>
 
-    <a href="BOSS LVL.html">home</a><br>
-    <a href="about me.html">about me</a><br>
-    <a href="contact me.html">contact me</a><br><br>
-    <a href="register.html">refresh</a>
 </body>
-
+   
 </html>
