@@ -15,7 +15,13 @@ for i in range(50):
     print(i)
 
 # 5)მომხმარებელს შემოატანინეთ ორი რიცხვი start,end,step და range ფუნქციის გამოყენებით გამოიტანეთ start იდან end ის ჩათვლით გამოიტანეთ ყველა რიცხვი
-for i in range(10,21):
+start = int(input("enter start num: "))
+end = int(input("enter end num: "))
+step = int(input("enter range num: "))
+
+
+
+for i in range(start,end,step):
     print(i)
 
 
