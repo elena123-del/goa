@@ -1,5 +1,5 @@
 # 3)ცვლადში შეინახეთ თქვენი სახელი, მომხმარებელს შემოატანინეთ მისი სახელი და თუ თქვენი სახელები ემთხვევა დაუპრინტეთ "Hello" სხვა შემთხვევაში "Bye"
-my_name = "vano"
+my_name = "elena"
 user_name = input("Enter your name: ")
 
 if my_name == user_name:
