@@ -1,0 +1,35 @@
+<!-- 1) ახსენით რა არის internal და inline css და რა განსხვავებაა მათ შორის -->
+<!-- internal ნიშნავს head თეგში როცა ვქმნით style ტეგს და იქ ვიწყებთ css-ს ხოლო inline არის თვითონ კოდში დაწერილი css -->
+<!-- 2) კომენტარის სახით ახსენით რაში გამოიყენება css'ი -->
+<!-- css უზრუნველყოფს ვებგვერდის დიზაინს -->
+<!-- 3) შექმენით button რომელსაც internal css'ის საშუალებით შეუცვლით უკანა ფონის ფერს და გახდით მწვანეს ხოლო ტექსტს ლურჯს  -->
+<!-- 4) შექმენით p თეგი რომესაც inline css'ში გადასცემთ ტექსტის ფერს წითელს და internal css'ში მწვანეს დაწერეთ რომელ ფერს გამოიტანს საიტზე და რატომ -->
+<!-- 5) შექმენით h1 თეგი რომელშიც ჩაწერთ რაღაც ტქესტს, ამ ტექსტიდან თქვენთვის სასურველი ერთი სიტყვა გახადეთ სხვაფერი -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        button {
+            background-color: green;
+            color: blue;
+        }
+
+        p {
+            color: green;
+        }
+    </style>
+</head>
+
+<body>
+    <button>click me</button>
+    <p style="color: red;">Hello</p>
+    <!-- საიტზე გამოიტანს წითელს იმიტომ რომ ინლაინში გვაქვს კონკრეტულად ამ პი თეგის ფერი შეცვლილი -->
+    <h1>მე მიყვარს <span style="color: red;">პროგრამირება</span>!</h1>
+</body>
+
+</html>

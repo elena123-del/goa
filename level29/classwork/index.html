@@ -1,0 +1,32 @@
+<!-- 1) შექმენით 2 პარაგრაფი რომელსაც inline css'ით შეუცვლით ფერს და გახდით წითელს და ასევე შეუცვლით უკანა ფონის ფერს და გახდით შავს, შემდეგ იგივე გააკეთეთ internal css'ის გამოყენებით. -->
+
+<!-- 2) რა განსხვავებაა inline css'სა და intenral css შორის  -->
+<!-- internal ნიშნავს head თეგში როცა ვქმნით style ტეგს და იქ ვიწყებთ css-ს ხოლო inline არის თვითონ კოდში დაწერილი css -->
+
+<!-- 3) შექმენით ერთი p და h1 თეგები შემდეგ კი გასტილეთ ორივე ერთად და და გახადეთ ლურჯი ფერის -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    p {
+      color: red;
+      background-color: black;
+    }
+  </style>
+</head>
+
+<body>
+  <p style="color: red; background-color: black;">Hello world</p>
+  <p>Hello</p>
+
+  <span style="color: blue;">
+    <p>programming</p>
+    <h1>Hi</h1>
+  </span>
+</body>
+
+</html>
